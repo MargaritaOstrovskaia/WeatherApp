@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/tRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/textView_cityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/textView_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/textView_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding10"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView_min"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding5"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_max"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding5"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tRow5"
+            android:padding="5dip" />
+
+        <TableRow
+            android:id="@+id/tRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding10"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:text="@string/wind_speed"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_windSpeed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary" />
+
+        <TableRow
+            android:id="@+id/tRow7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding10"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:text="@string/air_pressure"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_airPressure"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary" />
+
+        <TableRow
+            android:id="@+id/tRow8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding10"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:text="@string/humidity"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_humidity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary" />
+
+        <TableRow
+            android:id="@+id/tRow9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding10"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:text="@string/visibility"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView_visibility"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding5"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+        </TableRow>
+
+         <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary" />
+
+    </TableLayout>

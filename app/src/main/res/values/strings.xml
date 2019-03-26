@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="settings">Settings</string>
+    <string name="name_mainList">Cities</string>
+    <string name="menu_share">Share</string>
+    <string name="name_search">Search city</string>
+    <string name="enterCity">Enter city...</string>
+    <string name="removeCity">Remove</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="min">"Minimum "</string>
+    <string name="max">"Maximum "</string>
+    <string name="pressure">" mbar"</string>
+    <string name="miles">" miles"</string>
+    <string name="day">DAY</string>
+    <string name="week">WEEK</string>
+    <string name="temperature">Temperature</string>
+    <string name="time_format">Time format</string>
+    <string name="speed_kph">" kph"</string>
+    <string name="speed_mph">" mph"</string>
+    <string name="kilometers">" km"</string>
+    <string name="state_sn">Snow</string>
+    <string name="state_sl">Sleet</string>
+    <string name="state_h">Hail</string>
+    <string name="state_t">Thunderstorm</string>
+    <string name="state_hr">Heavy Rain</string>
+    <string name="state_lr">Light Rain</string>
+    <string name="state_s">Showers</string>
+    <string name="state_hc">Heavy Cloud</string>
+    <string name="state_lc">Light Cloud</string>
+    <string name="state_c">Clear</string>
+    <string name="f">°F</string>
+    <string name="c">°C</string>
+</resources>

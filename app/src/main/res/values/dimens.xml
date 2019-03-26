@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="padding5">5dip</dimen>
+    <dimen name="padding10">10dip</dimen>
+    <dimen name="padding15">15dip</dimen>
+</resources>

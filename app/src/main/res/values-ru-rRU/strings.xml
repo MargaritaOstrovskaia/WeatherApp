@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="name_mainList">Города</string>
+    <string name="name_search">Поиск города</string>
+    <string name="air_pressure">Давление</string>
+    <string name="wind_speed">Скорость ветра</string>
+    <string name="visibility">Видимость</string>
+    <string name="humidity">Влажность</string>
+    <string name="enterCity">Введите город...</string>
+    <string name="removeCity">Удалить</string>
+    <string name="min">"Минимум "</string>
+    <string name="max">"Максимум "</string>
+    <string name="miles">" миль"</string>
+    <string name="pressure">" мбар"</string>
+    <string name="day">ДЕНЬ</string>
+    <string name="week">НЕДЕЛЯ</string>
+    <string name="time_format">Формат времени</string>
+    <string name="temperature">Темпиратура</string>
+    <string name="speed_kph">" км/ч"</string>
+    <string name="speed_mph">" миль/ч"</string>
+    <string name="settings">Настройки</string>
+    <string name="kilometers">" км"</string>
+    <string name="state_sn">Снег</string>
+    <string name="state_sl">Мокрый снег</string>
+    <string name="state_h">Град</string>
+    <string name="state_t">Гроза</string>
+    <string name="state_hr">Ливень</string>
+    <string name="state_lr">Легкий дождь</string>
+    <string name="state_s">Ливни</string>
+    <string name="state_hc">Пасмурно</string>
+    <string name="state_lc">Малооблачно</string>
+    <string name="state_c">Ясно</string>
+    <string name="f">°F</string>
+    <string name="c">°C</string>
+</resources>
